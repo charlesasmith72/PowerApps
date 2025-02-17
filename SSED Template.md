@@ -11,12 +11,14 @@ Below is an HTML page that uses only inline styles on each element. Note that in
   <body style="margin:0; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color:#f9fafb;">
     <!-- Top Navigation Bar -->
     <nav style="background-color:#fff; border-bottom:1px solid #e5e7eb; padding:0.75rem 1rem; display:flex; align-items:center; justify-content:space-between;">
-      <h1 style="font-size:2.5rem; font-weight:bold; color:#1e40af;margin-top: 0px;margin-bottom: 0px">SSED Database</h1>
+        <h1 style="margin-bottom:1rem; font-size:2.25rem; font-weight:800; line-height:1; letter-spacing:-0.025em; color:#111827;">
+            IRAP <mark style="padding:0 0.5rem; color:#ffffff; background-color:#2563eb; border-radius:0.125rem;">SSED</mark>  DATABASE
+          </h1>
       <div>
-        <a href="#" style="margin-right:1rem; font-size:1.5rem; color:#4b5563; text-decoration:none;">Home</a>
-        <a href="#" style="margin-right:1rem; font-size:1.5rem; color:#4b5563; text-decoration:none;">Team</a>
-        <a href="#" style="margin-right:1rem; font-size:1.5rem; color:#4b5563; text-decoration:none;">Records</a>
-        <a href="#" style="font-size:1.5rem; color:#4b5563; text-decoration:none;">Settings</a>
+        <a href="#" style="margin-right:1rem; font-size:1.5em; color:#4b5563; text-decoration:none;">Home</a>
+        <a href="#" style="margin-right:1rem; font-size:1.5em; color:#4b5563; text-decoration:none;">Team</a>
+        <a href="#" style="margin-right:1rem; font-size:1.5em; color:#4b5563; text-decoration:none;">Records</a>
+        <a href="#" style="font-size:1.5em; color:#4b5563; text-decoration:none;">Settings</a>
       </div>
     </nav>
 
@@ -91,6 +93,7 @@ Below is an HTML page that uses only inline styles on each element. Note that in
     </div>
   </body>
 </html>
+
 
 ```
 
